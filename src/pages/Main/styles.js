@@ -5,6 +5,7 @@ export const Container = styled.View`
   flex: 1;
   background: #8B10AE;
   padding-top: ${getStatusBarHeight()}px;
+  justify-content: center;
 `;
 
 export const Content = styled.View`
@@ -19,6 +20,10 @@ export const Card = styled.View`
   border-radius: 4px;
   margin: 0 20px;
   height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 280px;
 `;
 
 export const CardHeader = styled.View`
